@@ -2,7 +2,7 @@
 
 App idea: [Bin2Dec](https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Bin2Dec-App.md)
 
-[View it live!](gwfb2.github.io/bin-2-dec/index.html)
+[View it live!](https://gwfb2.github.io/bin-2-dec/)
 
 **Tier:** 1-Beginner
 
