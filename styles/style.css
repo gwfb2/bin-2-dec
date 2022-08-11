@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #d2dcf0;
+}
+
+#title {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.baseContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border-radius: 6px;
+    background: #6d95c4;
+}
+
+.binContainer {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    padding: 8px;
+    border-radius: 8px;
+    outline: none;
+    background: #fff;
+}
+
+.btn {
+    margin: 12px;
+    padding: 10px;
+    background: #0c1964;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.decContainer {
+    background: #0c1964;
+    border-radius: 8px;
+    color: #f0e3d2;
+    width: 270px;
+    max-width: 270px;
+    height: 150px;
+    text-align: center;
+}
+
+.decNumber {
+    display: flex;
+    vertical-align: middle;
+    padding: 5px 0;
+    justify-content: center;
+    height: 25px;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: 0;
+
+}
+
+div div {
+    margin: 20px;
+    padding: 20px;
+}
+
+@media (max-width: 720px) {
+    .mainContainer {
+        flex-direction: column;
+    }
+}
